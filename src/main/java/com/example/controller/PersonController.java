@@ -20,7 +20,7 @@ public class PersonController {
 	@Autowired
 	PersonService ps;
 
-	@RequestMapping("/all")
+	@RequestMapping("/alll")
 	public ArrayList<Person> getAll() {
 		return ps.getAll();
 	}
