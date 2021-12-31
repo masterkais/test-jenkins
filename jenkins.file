@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('scm checkout') {
             steps {
+                echo 'from github ..................'
                 echo 'checkout completed ....'
             }
         }
